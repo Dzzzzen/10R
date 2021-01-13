@@ -13,22 +13,23 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: AYJw1q7/////AAABmRxezP9ApEYhoC0zJLLH6FU3jgMGWOFitJKitZAm2j+HZfLQ55Wrpcttsl/w8R95daPPNflV4g+6ipz/FREqee9P48H23S48O3OgRiOB2b72H9UaqI8v1h0wLFCBLUqw+ZJ2RWLv9UrIDntGpDNw5tFuiq9ot+QweLSbiiu5TKIq06wXcQAs7o5cBxRPaUIOq1TURtVr44ogprVIUU0P453kE/SUni0W8PSHphRH774eJ6T1yV4ldg8MAydsASe9Rmjdg8gn1VWtlQCjiC8NNE75XpWeM7mGHwBxoQlLV99ZmZVFSe2Ybfgw9NvP1I01qJAfPj8a8PiuWJbvto+Fi5xbl0oZDZstO6clGZFIg3l+
-    ufoLicenseKey: QWF5cHdiVC8vLy8vQUFBQUtMS2tyTHhtSGtxYnE2WlQ0UEFMNWFkbEdqbzZzM2lnUjliNFNuQmpBQmZ1Q1oweXROWWdKNFRZTllDSG5SNnE2b2tlcmNnSFQ4SythbTZ1bEJIRExWZUsxNis3RXZRZktQNGJKQUUxUTg2bFpuVnRmRjYyZDhCenhlVXd3QlNQTURuc2VCTXpJak1ma3puZzdRWkovc1FDNWxrbnVydzJiTE5mM1VBWEtvMFJOM28zUS9yMzVJc3VQYjBORjR6V29FdnRnMHNzL0xjRWNuMjZsQUdTV0FlSktwOUY5aTByMUh2NVVpNXU4Y3UrWDlHQWgvandxK2pBdm5GVmVHK3liZ0VOM1Y5S0hNdVRLSCtCby9ZSHh3VmNvM3FuMkl2UUh5T1hNOFg1a1ZXYXJxd1dqQUE5bXU1MW1TU3cxd3B4Qk9mWk9PUUxKWGtCMWx4NnFJb0srWFMzQXJBZlR6YnptVHpEUEtYWEhUeXk=
+    vuforiaLicenseKey: AfhOwGH/////AAABmeIjsecYukcIrsEP/qDeG+pP+uka/SF35+rmkOSnFko3WLo2k0RhAxAZXNSxUoaw+iiH4BZqnyM1Ls9o7WPhk2TkBl5VwRMdpSmx5h3oGTl0/xFY99kQBBug/xAk01IUgaJjyRWdYJJa/Y3E4uOQC+ED2tJEXMlaxQMhE8Tmypny3Ik91/I1T3pho6pBNHQtodFZ0+yU9FU6RQ+JjusM6eVFvvsU4gjYmJ8eNWhXGgSj++oIby9qKb+KX86ez2fxTeTXhHsoIxCvq9HbWI0U7/YebhNQ6Sa1cTgvDhLuUsKXEBNhA8h0S+Z9HUSLLBTA4/cKV/TwS2eIbFV52BQhQT5LndIQ97wFDVpXEqlwKq0U
+    ufoLicenseKey: QVhhMW1LVC8vLy8vQUFBQUtEZnM2OTBiTjB1S24zME1lcWdBNEtHUkVTbHg0Qzk0ZW5ZcW5XbGEyRDNtdEpaK3dLRGFqZUpUQUhCczFGRG5QTnEvcWNjZWtmRUxrY3EyTG5hQVRyVjhyaStEOElsTTJGa296MUZxeFo4aTVVVTFpcVA3VjB5dVNKN0Q2dlg2TjBlZ1lNZGw1eTVyRXR6ZVpxeGxQR0FzTWQycS9EK2RzMWJORWFDNjVaNFExMStWMm9sUFc0S1dTQXVhb2NsQ3JnUUF1bHlGZXVPQ25FNk5ONGw0Wjh1ZXcvTjArVWRzd05qRDNSOFo5OUdTSDViRnpsNkI0a1dNNExmY2tkNFRadGloYm9wWVJKRlhpbnpRc3ozcXhZa2ovVFJKWEdVV3JPYjhnQ2dLR21tOXJ5bGFpSDRpUjlMWndGRHJSb0tWNjNIcWF4Nk5MTG14eGNvMUFrTUxQaTNiRlI2RkxNdFl4Qm42Z2xRSFZiT1E=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 1
-    maxSimultaneousObjectTargets: 1
+    maxSimultaneousImageTargets: 6
+    maxSimultaneousObjectTargets: 6
     virtualSceneScaleFactor: 1
     useDelayedLoadingObjectTargets: 0
     modelTargetRecoWhileExtendedTracked: 1
-    version: 9.4.6
-    eulaAcceptedVersions: '{"Values":["9.4"]}'
+    version: 9.5.4
+    eulaAcceptedVersions: '{"Values":["","9.4","9.5","0.0","9.6"]}'
   database:
     disableModelExtraction: 0
   videoBackground:
     numDivisions: 2
-    videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a, type: 3}
+    videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a,
+      type: 3}
     unlitShader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
     videoBackgroundEnabled: 1
   deviceTracker:
